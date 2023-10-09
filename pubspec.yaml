@@ -1,0 +1,26 @@
+name: power
+description: A Flutter plugin to access device power related information.
+version: 0.5.0
+homepage: https://github.com/Amir-P/power
+repository: https://github.com/Amir-P/power
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  flutter: ">=2.0.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.amir_p.power
+        pluginClass: PowerPlugin
+      ios:
+        pluginClass: PowerPlugin

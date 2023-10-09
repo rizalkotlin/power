@@ -1,23 +1,7 @@
-# Power
+import 'package:flutter/material.dart';
+import 'dart:async';
+import 'package:power/power.dart';
 
-A Flutter plugin to access device power related information.
-
-![pub package](https://img.shields.io/pub/v/power.svg)
-
-## Usage
-
-To use this plugin, add power as a dependency in your pubspec.yaml file.
-
-``` yaml
-dependencies:
-  flutter:
-    sdk: flutter
-  power: ^0.5.0
-```
-
-## Example
-
-``` dart
 void main() {
   runApp(MyApp());
 }
@@ -72,12 +56,3 @@ class _MyAppState extends State<MyApp> {
     );
   }
 }
-```
-
-## Features
-
-- [x] Get low power mode
-- [x] Get battery level
-- [x] Get charging status
-- [ ] Build widgets in response to power changes
-- [ ] Disable animations in low power mode
